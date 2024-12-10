@@ -1,0 +1,47 @@
+h1{
+    font-family: 'Pokemon Solid', sans-serif;
+    color:yellow;
+    font-size:30px;
+    text-align:center;
+
+}
+body{
+    background-color:darkslateblue;
+}
+input, button{
+    border-radius: 15px;
+    height: 35px;
+    background-color: red;
+    margin-right: 10px;
+
+}
+label, button{
+    font-family: "Londrina Shadow", sans-serif;
+    font-size:25px;
+    color:yellow;
+    margin-right: 10px;
+
+}
+button:hover{
+    background-color: darkred;
+    transform: scale(1.1);
+}
+img{
+    width:300px;
+    height:200px;
+    float:right;
+}
+input{
+    font-family:"Chivo Mono", monospace;
+}
+#pokemonImage img {
+    display: none;
+
+}
+
+#pokemonImage img.loaded {
+    display: block;
+
+}
+
+
